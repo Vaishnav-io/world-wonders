@@ -1,0 +1,29 @@
+body {
+  background-color: burlywood;
+}
+h1 {
+  padding: 10px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 10px 10px 20px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.image-container div {
+  padding: 25px;
+  background-color: blanchedalmond;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+img {
+  object-fit: fill;
+  border: 1px solid;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 50%;
+}
